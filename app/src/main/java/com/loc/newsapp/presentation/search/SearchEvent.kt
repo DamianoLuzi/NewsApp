@@ -1,4 +1,6 @@
 package com.loc.newsapp.presentation.search
 
-class SearchEvent {
+sealed class SearchEvent {
+    data class UpdateSearchQuery(val searchQuery: String): SearchEvent()
+    object SearchNews: SearchEvent()
 }

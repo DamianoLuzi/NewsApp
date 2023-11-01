@@ -1,4 +1,6 @@
 package com.loc.newsapp.presentation.onboarding
 
-class OnBoardingEvent {
+sealed class OnBoardingEvent {
+
+    object SaveAppEntry: OnBoardingEvent()
 }
