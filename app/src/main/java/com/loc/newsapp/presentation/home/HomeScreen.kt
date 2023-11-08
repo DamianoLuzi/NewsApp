@@ -54,11 +54,11 @@ fun HomeScreen(
             .padding(top = MediumPadding1)
             .statusBarsPadding()) {
         Image(
-            painter = painterResource(id = R.drawable.ic_logo),
+            painter = painterResource(id = R.mipmap.new_ic_launcher),
             contentDescription = null,
             modifier = Modifier
                 .width(150.dp)
-                .height(30.dp)
+                .height(40.dp)
                 .padding(horizontal = MediumPadding2)
         )
         Spacer(modifier = Modifier.height(MediumPadding1))
